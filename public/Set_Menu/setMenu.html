@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Menu | MANAGER</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel = 'stylesheet' href="setMenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo_section">
+            <div class="nav_logo">
+                <a href="#"><img src='assests/1.png'></a>
+            </div> 
+            <p>SNK HALL DINING MANAGEMENT</p>
+        </div>
+        <div class="ul_section">
+          <ul >
+            <li>
+              <a href="#">Meal</a>
+              <ul class="dropdown">
+                  <li><a href="manager_homepage.html" id="redirectToDailyLunch">Daily Lunch</a></li>
+                  <li><a href="dinner.html" id="redirectToDailyDinner">Daily Dinner</a></li>
+                  <li><a href="setMenu.html" id="redirectToSetMenu">Set Menu</a></li>
+                  <li><a href="feastDay.html" id="redirectToFeastDay">Feast Day</a></li>
+              </ul>
+            </li>
+            <li>
+                <a href="#">Record</a>
+                <ul class="dropdown">
+                    <li><a href="showtable.html" id="redirectToTableLunch">Table for Lunch</a></li>
+                    <li><a href="table2.html" id="redirectToTableDinner">Table for Dinner</a></li>
+                    <li><a href="showta.html" id="redirectToShowMeal">Show Meal</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+        <div class="icon_section">
+            <button type="Feedback" class="fb_btn">Feedback</button>
+            <div class="msg_icon">
+                <a href="#"><i class="ri-discuss-fill"></i></a>
+            </div> 
+            <div class="user_logo">
+                <p id ="User_ID">MANAGER</p>
+                <div class="user_icon">
+                    <a href="#"><i class="ri-user-3-fill"></i></a>
+                </div> 
+            </div> 
+            <div class="sub-menu-wrap f">
+                <div class=sub-menu>
+                    <div class="user-info">
+                        <h3 id="User_H3">James Aldrino</h3>
+                    </div>
+                    <hr>
+                </div>
+                <a href="#" class="sub-menu-links">
+                    <i class="ri-user-3-fill"></i>
+                    <p>Edit Profile</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-links">
+                    <i class="ri-settings-3-line"></i>
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-links">
+                    <i class="ri-question-fill"></i>
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="index.html" class="sub-menu-links">
+                    <i class="ri-logout-box-r-line"></i>
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="set_menu_cover">
+        
+      <!-- <h1 style='color:hsl(0, 0%, 4%)'>Set Menu</h1>-->
+      <h1 class="center-heading"><i class="fa-solid fa-receipt" style="font-size: 42px;font-family: serif;"></i>    Set Menu</h1>
+      <div class="set_menu_box">
+          <h3 style="color:hsla(0, 94%, 54%, 0.686);font-size:30px;font-family:'serif';">Write the food items for today's meal</h3>
+          <form id="setMenuForm" method="POST" action="/submit-set-menu">
+              
+              <div class="input_box">
+                  <h3>Lunch : </h3>
+                  <input type = 'text' name="lunch" id="lunch" placeholder="can post writing." required>
+      
+              </div>
+              
+              <div class="input_box">
+                  <h3>Dinner :</h3>
+                  <input type = 'text'name="dinner" id="dinner" placeholder="can post writing." required>
+              </div>
+              <div class="button_container">
+                  <button type ='Post' class='btn1'>Post</button> 
+              </div>
+          </form>
+      </div>
+    </div>
+    <!--reply box-->
+    <div class="wrap book">
+        <table>
+            <form action=""method="">
+                <h1>REPLY</h1>
+            <br><br>
+                <tr>
+                    <td colspan="2">
+                        <label>Type</label><span class="red-star">*</span><br/>
+                        <input type="radio" name="rate" value="bad" id="bad">
+                        <label class="radio-label" for="bad">Bugs</label>
+                
+                        <input type="radio" name="rate" value="questions" id="questions">
+                        <label class="radio-label" for="questions">Questions</label>
+                
+                        <input type="radio" name="rate" value="comments" id="comments">
+                        <label class="radio-label" for="comments">Comments</label><br/><br/>
+                    </td>
+                </tr>
+                <tr>
+                   <td colspan="2">
+                    <label>Receiver Student ID</label>
+                    <br>
+                    <input type="text" name="about" class="txt"style="margin-top: 10px; margin-left: 30px">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Your Reply</label><span class="red-star">*</span>
+                    </br>
+                        <textarea class="txtarea"style="margin-top: 10px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                 <td >
+                    <button type="send reply" class="btn">FEEDBACK</button>
+
+                 </td>   
+                </tr>
+                <button class="close-btn">&times;</button>
+            </form>
+
+        </table>
+    </div>
+    <!--khatam-->
+    <!--feedback from user-->
+    <div class="notifi-box blow" >
+        <h1>FEEDBACK</h1>
+         <div class="notifi-item">
+           
+           <div class="text">
+             <button type="reply" class="rp_btn">Reply</button>
+             
+             <h2>R</h2>
+             
+               <h3>Rashme Akther 200416</h3>
+               <h5>Bugs<span class="red-star">*</span></h5>
+             
+             <p>
+               The dining management system is user-friendly, yet expanding menu
+               selections and refining technical aspects would further elevate
+               its usability
+             </p>
+           </div>
+         </div>
+         <div class="notifi-item">
+             <div class="text">
+               <button type="reply" class="rp_btn">Reply</button>
+               <h2>N</h2>
+               <h3>Nusrat Tazin 200417</h3>
+               <h5>Questions<span class="red-star">*</span></h5>
+              <p> 
+                 The dining management system is user-friendly, yet expanding menu
+                 selections and refining technical aspects would further elevate
+                 its usability. The dining management system is user-friendly, yet expanding menu
+                 selections and refining technical aspects would further elevate
+                 its usability?
+              </p>
+             </div>
+           </div>
+           <div class="notifi-item">
+             <div class="text">
+               <button type="reply" class="rp_btn">Reply</button>
+               <h2>W</h2>
+               <h3>Walisa Alam 190235</h3>
+               <h5>Comments<span class="red-star">*</span></h5>
+               <p>
+                 The dining management system is user-friendly, yet expanding menu
+                 selections and refining technical aspects would further elevate
+                 its usability
+               <p>
+             </div>
+           </div>
+           <div class="notifi-item">
+             <div class="text">
+               <button type="reply" class="rp_btn">Reply</button>
+               <h2>A</h2>
+               <h3>Adiba Fairuz Chowdhury 210120</h3>
+               <h5>comments<span class="red-star">*</span></h5>
+               <p>
+                 The dining management system is user-friendly, yet expanding menu
+                 selections and refining technical aspects would further elevate
+                 its usability
+               </p>
+             </div>
+           </div>
+           <div class="notifi-item">
+             <div class="text">
+               <button type="reply" class="rp_btn">Reply</button>
+               <h2>M</h2>
+               <h3>Mumtahina Mumu 190416</h3>
+               <h5>Questions<span class="red-star">*</span></h5>
+               <p>
+                 The dining management system is user-friendly, yet expanding menu
+                 selections and refining technical aspects would further elevate
+                 its usability?
+               </p>
+             </div>
+           </div>
+           <div class="notifi-item">
+             <div class="text">
+               <button type="reply" class="rp_btn">Reply</button></a>
+               <h2>H</h2>
+               <h3>Habiba Akhter 220408</h3>
+               <h5>Bugs<span class="red-star">*</span></h5>
+               <p>
+                 The dining management system is user-friendly, yet expanding menu
+                 selections and refining technical aspects would further elevate
+                 its usability
+               </p>
+             </div>
+           </div>
+           <div class="notifi-item">
+             <div class="text">
+               <button type="reply" class="rp_btn">Reply</button>
+               <h2>M</h2>
+               <h3>Sidratul Muntaha 200441</h3>
+               <h5>Questions<span class="red-star">*</span></h5>
+               <p>
+                 The dining management system is user-friendly, yet expanding menu
+                 selections and refining technical aspects would further elevate
+                 its usability
+               </p>
+             </div>
+           </div>
+    <!--done-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="setMenu.js"></script>
+</body>
+</html>
