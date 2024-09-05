@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch | USER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel = 'stylesheet' href="../Meal_Calender/practice.css">
+</head>
+<body>
+    <header>
+        <div class="logo_section">
+            <div class="nav_logo">
+                <a href="#"><img src='../assests/1.png'></a>
+            </div> 
+            <p>SNK HALL DINING MANAGEMENT</p>
+        </div>
+        <div class="ul_section">
+            <ul >
+                <li>
+                    <a href="#">Token</a>
+                    <ul class="dropdown">
+                        <li><a href="../Meal_Calender/practice.html" id="redirectToPractice">Lunch</a></li>
+                        <li><a href="../Meal_Calender/practice1.html" id="redirectToPractice1">Dinner</a></li>
+                        <li><a href="../Menu/menu.html" id="redirectToMenu">Menu</a></li>
+                        <li><a href="../Current_Manager/currentm.html" id="redirectToManager">Manager</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Payment</a>
+                    <ul class="dropdown">
+                        <li><a href="../Dining_Fee/dining_fee.html" id="redirectToDiningFee">Dining Fee</a></li>
+                        <li><a href="../Late_Fee/table.html" id="redirectToLateFee">Late Fee</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="icon_section">
+            <button type="Feedback" class="fb_btn">Feedback</button>
+            <div class="msg_icon">
+                <a href="#"><i class="ri-discuss-fill"></i></a>
+            </div> 
+            <div class="user_logo">
+                <p id="User_ID">USER</p>
+                <div class="user_icon">
+                    <a href="#"><i class="ri-user-3-fill"></i></a>
+                </div> 
+            </div> 
+            
+            <!--user icon click-->
+            <div class="sub-menu-wrap f">
+                <div class=sub-menu>
+                    <div class="user-info">
+                        <h3 id="User_H3">James Aldrino</h3>
+                    </div>
+                    <hr>
+                </div>
+                <a href="#" class="sub-menu-links">
+                    <i class="ri-user-3-fill"></i>
+                    <p>Edit Profile</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-links">
+                    <i class="ri-settings-3-line"></i>
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-links">
+                    <i class="ri-question-fill"></i>
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="index.html" class="sub-menu-links">
+                    <i class="ri-logout-box-r-line"></i>
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+            
+        </div>
+    </header>
+    <div class="w_body">
+        <div class="wrapper">
+            <p>&lt; &lt; &lt; LUNCH &gt; &gt; &gt;</p>
+            <div class="header">
+                <p class ='current_date'></p>
+                <div class="icons1">
+                    <span class="material-symbols-rounded" id="prev"><i class="ri-arrow-left-s-line"></i></span>
+                    <span class="material-symbols-rounded"><i class="ri-arrow-right-s-line"></i></span>
+                </div>
+            </div>
+            <div class="calender">
+                <ul class="weeks">
+                    <li>Sun</li>
+                    <li>Mon</li>
+                    <li>Tues</li>
+                    <li>Wed</li>
+                    <li>Thu</li>
+                    <li>Fri</li>
+                    <li>Sat</li>
+                </ul>
+                <ul class="dinner days">
+        
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="ad add">
+        <video autoplay loop height = 100% width= 100%>
+            <source src="../assests/FEAST-3.mp4" type="video/mp4" codecs="avc1.4d002a, mp4a.40.2">
+        </video>
+        <button class="ad_btn">Learn more</button>
+    </div>
+     <!-- Popup container -->
+     <div class="popup" id="popup">
+        <div class="popup-content">
+            <button class="popup-close" id="popup-close">x</button>
+            <img id="popup-image" src="" alt="Feast Image" width="100%">
+        </div>
+    </div>
+    <!--feed back form-->
+    <div class="wrap for3">
+        <table>
+            <form action=""method="">
+                <h1>FEEDBACK FORM</h1>
+            <br><br>
+                <tr>
+                    <td colspan="2">
+                        <label>Type</label><span class="red-star">*</span><br/>
+                        <input type="radio" name="rate" value="bad" id="bad">
+                        <label class="radio-label" for="bad">Bugs</label>
+                
+                        <input type="radio" name="rate" value="questions" id="questions">
+                        <label class="radio-label" for="questions">Questions</label>
+                
+                        <input type="radio" name="rate" value="comments" id="comments">
+                        <label class="radio-label" for="comments">Comments</label><br/><br/>
+                    </td>
+                </tr>
+                <tr>
+                   <td colspan="2">
+                    <label>About</label>
+                    <br>
+                    <input type="text" name="about" class="txt"style="margin-top: 10px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Your Feedback</label><span class="red-star">*</span>
+                    </br>
+                        <textarea class="txtarea"style="margin-top: 10px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                 <td >
+                    <button type="send feedback" class="btn">SEND FEEDBACK</button>
+                 </td>   
+                </tr>
+            </form>
+
+        </table>
+    </div>
+    <!--khatam-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../Meal_Calender/main1.js"></script>
+</body>
+</html>
