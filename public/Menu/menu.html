@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu | USER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Menu/menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo_section">
+            <div class="nav_logo">
+                <a href="#"><img src='../assests/1.png'></a>
+            </div> 
+            <p>SNK HALL DINING MANAGEMENT</p>
+        </div>
+        <div class="ul_section">
+            <ul >
+                <li>
+                    <a href="#">Token</a>
+                    <ul class="dropdown">
+                        <li><a href="../Meal_Calender/practice.html" id="redirectToPractice">Lunch</a></li>
+                        <li><a href="../Meal_Calender/practice1.html" id="redirectToPractice1">Dinner</a></li>
+                        <li><a href="../Menu/menu.html" id="redirectToMenu">Menu</a></li>
+                        <li><a href="../Current_Manager/currentm.html" id="redirectToManager">Manager</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Payment</a>
+                    <ul class="dropdown">
+                        <li><a href="../Dining_Fee/dining_fee.html" id="redirectToDiningFee">Dining Fee</a></li>
+                        <li><a href="../Late_Fee/table.html" id="redirectToLateFee">Late Fee</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="icon_section">
+            <button type="Feedback" class="fb_btn">Feedback</button>
+            <div class="msg_icon">
+                <a href="#"><i class="ri-discuss-fill"></i></a>
+            </div> 
+            <div class="user_logo">
+                <p id="User_ID">USER</p>
+                <div class="user_icon">
+                    <a href="#"><i class="ri-user-3-fill"></i></a>
+                </div> 
+            </div> 
+            
+        </div>
+         <!--user icon click-->
+         <div class="sub-menu-wrap f">
+            <div class=sub-menu>
+                <div class="user-info">
+                    <h3 id="User_H3">James Aldrino</h3>
+                </div>
+                <hr>
+            </div>
+            <a href="#" class="sub-menu-links">
+                <i class="ri-user-3-fill"></i>
+                <p>Edit Profile</p>
+                <span>></span>
+            </a>
+            <a href="#" class="sub-menu-links">
+                <i class="ri-settings-3-line"></i>
+                <p>Settings & Privacy</p>
+                <span>></span>
+            </a>
+            <a href="#" class="sub-menu-links">
+                <i class="ri-question-fill"></i>
+                <p>Help & Support</p>
+                <span>></span>
+            </a>
+            <a href="index.html" class="sub-menu-links">
+                <i class="ri-logout-box-r-line"></i>
+                <p>Logout</p>
+                <span>></span>
+            </a>
+        </div>
+    
+        
+    </div>
+    </header>
+    <div class="pick">
+        <h1 class="center-heading"><i class="fa-solid fa-receipt" style="font-size: 42px;"></i> Lunch Menu</h1>
+        
+        <div class="daily" id="lunch-menu">
+    
+            <!--<h3>Bhat</h3>
+            <h3>Dhal</h3>
+            <h3>Murgi</h3>-->
+        </div>
+        <h1 class="center-heading"><i class="fa-solid fa-receipt" style="font-size: 42px;"></i> Dinner Menu</h1>
+    
+        <div class="daily" id="dinner-menu">
+            
+            <!--<h3>Bhat</h3>
+            <h3>Dhal</h3>
+            <h3>Dim Bharta</h3>-->
+        </div>
+
+        </div>
+    </div>
+    <!--feedback form-->
+    <div class="wrap for3">
+        <table>
+            <form action=""method="">
+                <h1>FEEDBACK FORM</h1>
+            <br><br>
+                <tr>
+                    <td colspan="2">
+                        <label>Type</label><span class="red-star">*</span><br/>
+                        <input type="radio" name="rate" value="bad" id="bad">
+                        <label class="radio-label" for="bad">Bugs</label>
+                
+                        <input type="radio" name="rate" value="questions" id="questions">
+                        <label class="radio-label" for="questions">Questions</label>
+                
+                        <input type="radio" name="rate" value="comments" id="comments">
+                        <label class="radio-label" for="comments">Comments</label><br/><br/>
+                    </td>
+                </tr>
+                <tr>
+                   <td colspan="2">
+                    <label>About</label>
+                    <br>
+                    <input type="text" name="about" class="txt"style="margin-top: 10px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Your Feedback</label><span class="red-star">*</span>
+                    </br>
+                        <textarea class="txtarea"style="margin-top: 10px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                 <td >
+                    <button type="send feedback" class="btn">SEND FEEDBACK</button>
+
+                 </td>   
+                </tr>
+            </form>
+
+        </table>
+    </div>
+    <!--khatam-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        window.onload = async function () {
+        // Get the query parameters from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const name = urlParams.get('name');
+        const id = urlParams.get('id'); 
+
+        try {
+            //display name 
+            if (name) {
+                const firstName = name.split(' ')[0];
+                document.getElementById('User_ID').innerHTML= `${firstName}`;
+                document.getElementById('User_H3').innerHTML= `${name}`;
+            }
+        
+            // Fetch today's lunch menu
+            const lunchResponse = await axios.get('/get-lunch-meals');
+            const lunchItems = lunchResponse.data;
+            const lunchMenu = document.getElementById('lunch-menu');
+
+            if (Array.isArray(lunchItems)) {
+                lunchItems.forEach((item, index) => {
+                    const h3 = document.createElement('h3');
+                    console.log(item);
+                    h3.textContent = item;
+                    lunchMenu.appendChild(h3);
+                });
+            } else {
+                lunchMenu.innerHTML = '<p>No lunch menu available</p>';
+            }
+            // Fetch today's dinner menu
+            const dinnerResponse = await axios.get('/get-dinner-meals');
+            const dinnerItems = dinnerResponse.data;
+            const dinnerMenu = document.getElementById('dinner-menu');
+
+            if (Array.isArray(dinnerItems)) {
+                dinnerItems.forEach((item, index) => {
+                    const h3 = document.createElement('h3');
+                    console.log(item);
+                    h3.textContent = item;
+                    dinnerMenu.appendChild(h3);
+                });
+            } else {
+                dinnerMenu.innerHTML = '<p>No dinner menu available</p>';
+            }
+            
+        } catch (error) {
+            console.error('Error fetching menu data:', error);
+        }
+        
+        document.getElementById('redirectToPractice').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = `../Meal_Calender/practice.html?name=${encodeURIComponent(name)}&id=${id}`;
+        });
+        document.getElementById('redirectToPractice1').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = `..Meal_Calender/practice1.html?name=${encodeURIComponent(name)}&id=${id}`;
+        });
+        document.getElementById('redirectToMenu').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = `../Menu/menu.html?name=${encodeURIComponent(name)}&id=${id}`;
+        });
+        document.getElementById('redirectToManager').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = `../Current_Manager/currentm.html?name=${encodeURIComponent(name)}&id=${id}`;
+        });
+        document.getElementById('redirectToDiningFee').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = `../Dining_Fee/dining_fee.html?name=${encodeURIComponent(name)}&id=${id}`;
+        });
+        document.getElementById('redirectToLateFee').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = `../Late_Fee/table.html?name=${encodeURIComponent(name)}&id=${id}`;
+        });
+    }
+    
+        /* for user icon click*/
+        const User = document.querySelector('.user_icon');
+        const subMenu = document.querySelector('.sub-menu-wrap');
+
+        User.addEventListener("click", (e) => {
+            subMenu.classList.toggle("f");
+        });
+        const scrollRevealOption = {
+            distance: "50px",
+            origin: "bottom",
+            duration: 1000,
+        };
+
+        ScrollReveal().reveal("header .logo_section p", {
+            ...scrollRevealOption,
+            delay: 500,
+        });
+        feedButton = document.querySelector(".fb_btn");
+        feedBack = document.querySelector(".wrap");
+        feedButton.addEventListener('click', () => {
+            feedBack.classList.toggle('for3');
+        });
+
+    </script>
+ 
+</body>
+</html>
