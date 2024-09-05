@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel = 'stylesheet' href="../Late_Fee/table.css">
+</head>
+<body>
+    <section>
+        <header>
+            <div class="logo_section">
+                <div class="nav_logo">
+                    <a href="#"><img src='../assests/1.png'></a>
+                </div> 
+                <p>SNK HALL DINING MANAGEMENT</p>
+            </div>
+            <div class="ul_section">
+                <ul >
+                    <li>
+                        <a href="#">Token</a>
+                        <ul class="dropdown">
+                            <li><a href="../Meal_Calender/practice.html" id="redirectToPractice">Lunch</a></li>
+                            <li><a href="../Meal_Calender/practice1.html" id="redirectToPractice1">Dinner</a></li>
+                            <li><a href="../Menu/menu.html" id="redirectToMenu">Menu</a></li>
+                            <li><a href="../Current_Manager/currentm.html" id="redirectToManager">Manager</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Payment</a>
+                        <ul class="dropdown">
+                            <li><a href="../Dining_Fee/dining_fee.html" id="redirectToDiningFee">Dining Fee</a></li>
+                            <li><a href="../Late_Fee/table.html" id="redirectToLateFee">Late Fee</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon_section">
+                <button type="Feedback" class="fb_btn">Feedback</button>
+                <div class="msg_icon">
+                    <a href="#"><i class="ri-discuss-fill"></i></a>
+                </div> 
+                <div class="user_logo">
+                    <p id="User_ID"></p>
+                    <div class="user_icon">
+                        <a href="#"><i class="ri-user-3-fill"></i></a>
+                    </div> 
+                </div> 
+
+                <!--user icon click-->
+                <div class="sub-menu-wrap f">
+                    <div class=sub-menu>
+                        <div class="user-info">
+                            <h3 id="User_H3"></h3>
+                        </div>
+                        <hr>
+                    </div>
+                    <a href="#" class="sub-menu-links">
+                        <i class="ri-user-3-fill"></i>
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-links">
+                        <i class="ri-settings-3-line"></i>
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-links">
+                        <i class="ri-question-fill"></i>
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href="index.html" class="sub-menu-links">
+                        <i class="ri-logout-box-r-line"></i>
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+            
+                
+            </div>
+        </header>
+        <div class="w_body">
+            <main class="table">
+                <section class="table_header">
+                    <h1>Late Fee Record</h1>
+                </section>
+                <section class="table_body">
+                    <table class="tbl" id="lateFeeTable">
+                        <thead>
+                            <tr>
+                                <th> Month </th>
+                                <th> Amount </th>
+                                <th> Status </th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--<tr>
+                                <td> January,2022 </td>
+                                <td> 1100 </td>
+                                <td>
+                                    <p class="status">SELECT</p>
+                                </td>
+                            
+                            </tr>
+                            <tr>
+                                <td> May,2023 </td>
+                                <td> 1200 </td>
+                                <td>
+                                    <p class="status">SELECT</p>
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td> June,2023</td>
+                                <td> 1200 </td>
+                                <td>
+                                    <p class="status">SELECT</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> December,2023 </td>
+                                <td> 1200 </td>
+                                <td>
+                                    <p class="status">SELECT</p>
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td> January,2022 </td>
+                                <td> 1100 </td>
+                                <td>
+                                    <p class="status">SELECT</p>
+                                </td>
+                            
+                            </tr>
+                            <tr>
+                                <td> May,2023 </td>
+                                <td> 1200 </td>
+                                <td>
+                                    <p class="status">SELECT</p>
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td> June,2023</td>
+                                <td> 1200 </td>
+                                <td>
+                                    <p class="status">SELECT</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> December,2023 </td>
+                                <td> 1200 </td>
+                                <td>
+                                    <p class="status">SELECT</p>
+                                </td>
+                                
+                            </tr>-->
+                        </tbody>
+                    </table>
+                </section>
+                <section class="table_footer">
+                    <div class="s1">Total Amount :</div>
+                    <div class="s2"> 0 </div>
+                    <div class="button_container">
+                        <button class="btn1">PAY </button>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </section>
+    <!--feed back form-->
+    <div class="wrap for3">
+        <table>
+            <form action=""method="">
+                <h1>FEEDBACK FORM</h1>
+            <br><br>
+                <tr>
+                    <td colspan="2">
+                        <label>Type</label><span class="red-star">*</span><br/>
+                        <input type="radio" name="rate" value="bad" id="bad">
+                        <label class="radio-label" for="bad">Bugs</label>
+                
+                        <input type="radio" name="rate" value="questions" id="questions">
+                        <label class="radio-label" for="questions">Questions</label>
+                
+                        <input type="radio" name="rate" value="comments" id="comments">
+                        <label class="radio-label" for="comments">Comments</label><br/><br/>
+                    </td>
+                </tr>
+                <tr>
+                   <td colspan="2">
+                    <label>About</label>
+                    <br>
+                    <input type="text" name="about" class="txt"style="margin-top: 10px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Your Feedback</label><span class="red-star">*</span>
+                    </br>
+                        <textarea class="txtarea"style="margin-top: 10px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                 <td >
+                    <button type="send feedback" class="btn">SEND FEEDBACK</button>
+
+                 </td>   
+                </tr>
+            </form>
+
+        </table>
+    </div>
+    <!--khatam-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../Late_Fee/main_table.js"></script>
+</body>
+</html>
