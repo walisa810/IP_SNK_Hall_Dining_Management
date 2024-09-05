@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page | SNK </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/Front_Page/style.css">
+    <!--this link from project 1-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body id = 'Body'>
+    <nav>
+        <div class="nav_header">
+            <div class="nav__logo">
+                <a href="#"><img src='../assests/1.png'></a>
+            </div> 
+            <div class="nav_menu_btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav_links" id="nav-links">
+            <li><a href="#Home">HOME</a></li>
+            <!--<li><a href="#About">ABOUT US</a></li>-->
+            <li><a href="#Contact">CONTACT US</a></li>
+        </ul>
+        </div>
+    </nav>
+    <section id="Home">
+    <div class="container">
+        <div class="container_left">
+            <h1>SNK Hall Dining Mangement</h1>
+            <div class="container_btn">
+                <button class="btn" id="login_button_atfront">Log In</button>
+            </div>
+        </div>
+        <div class="container_right">
+            <div class="images">
+                <img src="../assests/pic4.jpeg" alt="dining_image" class="tent-1" >
+                <img src="../assests/pic7-3.jpg" alt="dining_image" class="tent-2" >
+            </div>
+            <div class="content">
+                <h4>WELCOME TO</h4>
+                <h2>DINING MANGEMENT</h2>
+                <h3> of Student Residence Hall</h3>
+                <p>
+                    This is the official website for dining management of SNK hall,CUET.This website presents with various features of dining management.Our objective is to cause ease to the students by providing 
+                    easier means of dining management system.
+                </p>
+            </div>
+        </div>
+        <div class="location">
+            <span><a href="https://www.google.com/maps/place/Shamshen+Nahar+Khan+Hall/@22.3620094,91.7749175,12z/data=!4m10!1m2!2m1!1sCuet+shamsen+nahar+khan+hall+location+map!3m6!1s0x30ad2fc2d9241b1f:0xaded3a419a88b456!8m2!3d22.4647997!4d91.9727855!15sCilDdWV0IHNoYW1zZW4gbmFoYXIga2hhbiBoYWxsIGxvY2F0aW9uIG1hcJIBEXN0dWRlbnRfZG9ybWl0b3J54AEA!16s%2Fg%2F11j83rzyz_?entry=ttu" target="_blank"><i class="ri-map-pin-2-fill"></i></a></span>
+            OUR LOCATION
+        </div>
+        <div class="socials">
+            <span>
+                <a href="https://www.facebook.com/share/DpXNj7cNr9tj4Tp7/?mibextid=K35XfP" target="_blank"><i class="ri-facebook-fill"></i></a>
+                OUR FACEBOOK PAGE
+            </span>
+        </div>
+        </section>
+        <!--<section id="About">
+            <div class="container">
+                Hi there
+            </div>
+        </section>-->
+        <section id="Contact">
+            <div class="contact">
+                <div class="box">
+                    <div class="left_side">
+                        <div class="address details">
+                            <i class='bx bxs-map'></i>
+                            <div class="topic">Address</div>
+                            <div class="text-one">Pahartoli, Raozan-4349</div>
+                            <div class="text-two">Chittagong, Bangladesh</div>
+                        </div>
+                        <div class="phone details">
+                            <i class='bx bxs-phone' ></i>
+                            <div class="topic">Phone</div>
+                            <div class="text-one">+880-31-714946</div>
+                            <div class="text-two">+880-31-714911</div>
+                        </div>
+                        <div class="email details">
+                            <i class='bx bxs-envelope'></i>
+                            <div class="topic">Email</div>
+                            <div class="text-one">www.cuet.ac.bd</div>
+                            <div class="text-two">registrar@cuet.ac.bd, iict@cuet.ac.bd</div>
+                        </div>
+                    </div>
+                    <div class="right_side">
+                        <div class="topic_text">Contact Us</div>
+                        <p>If you have any queries related to our hall or management,feel free to contact us</p>
+                    
+                        <form action="#">
+                            <div class="i_box">
+                                <input type="text" placeholder="Enter your name" >
+                            </div>
+                            <div class="i_box">
+                                <input type="text" placeholder="Enter your email" >
+                            </div>
+                            <div class="i_box message_box">
+                                <textarea></textarea>
+                            </div>
+                            <div class="buttton">
+                                <input type="button" value="Send Now" >
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--from-->
+        <div class = 'login_box for1'>
+            <span class="icon_close1">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+            <div class="form_box">
+                <h1 style='color:hsl(24, 28%, 48%)'>Log In</h1>
+                <form action="/login" method="post">
+                    <div class="input_box">
+                        <input type = 'text' placeholder="Username" name ="name" required>
+                        <i class='bx bx-user' style='color:rgb(255, 255, 255)'  ></i>
+                    </div>
+                    <div class="input_box">
+                        <input type = 'password' placeholder="Password" name ="password" required>
+                        <i class='bx bxs-lock-alt' style='color:rgb(255, 255, 255)'  ></i>
+                    </div>
+                    <div class="button_container">
+                        <button type ='Get Started' class='btn1'>Get Started</button> 
+                    </div>
+                    <div class="remember_forget">
+                        <a href="#" color>Forget Password?</a>
+                    </div>
+                    <div class="login_register">
+                        <a href="#" class="register_link">CREATE ACCOUNT</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--break-->
+        <div class = 'signup_box for2'>
+            <span class="icon_close2">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+            <div class="form_box">
+                <form action="/sign_up" method="POST">
+                    <h1 style='color:hsl(24, 62%, 50%)'>Sign Up</h1>
+                    <div class="input_box">
+                        <input type = 'text' placeholder="Name" name ="name" required>
+                        <i class='bx bx-user' style='color:rgb(255, 255, 255)'  ></i>
+                    </div>
+                    <div class="input_box">
+                        <input type = 'text' placeholder="ID" name="id" required>
+                        <i class='bx bx-id-card' style='color:rgb(255, 255, 255)'></i>
+                    </div>
+                    <div class="input_box"> 
+                        <input type = 'text' placeholder="Room No." name="roomno">
+                        <i class='bx bxs-door-open' style='color:rgb(255, 255, 255)'></i>   
+                    </div>
+                    <div class="input_box">
+                        <input type = 'text' placeholder="Contact No." name="contno" required>
+                        <i class='bx bxs-contact' style='color:rgb(255,255,255)' ></i>
+                    </div>
+                    <div class="input_box">
+                        <input type = 'password' placeholder="Password" name="password" required>
+                        <i class='bx bxs-lock-alt' style='color:rgb(255, 255, 255)'  ></i>
+                    </div>
+                    <div class="button_container">
+                        <button type ='SAVE' class='btn1'>SAVE</button> 
+                    </div>
+                    <div class="register_login">
+                        <p style="color:white ;text-align: center;font-size: 13px;">Already have an account?<br> <a href="#" class="login_link">Login here</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--pro-1-->
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/Front_Page/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
