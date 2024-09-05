@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dining Fee | USER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Dining_Fee/dining.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo_section">
+            <div class="nav_logo">
+                <a href="#"><img src='../assests/1.png'></a>
+            </div> 
+            <p>SNK HALL DINING MANAGEMENT</p>
+        </div>
+        <div class="ul_section">
+            <ul >
+                <li>
+                    <a href="#">Token</a>
+                    <ul class="dropdown">
+                        <li><a href="../Meal_Calender/practice.html" id="redirectToPractice">Lunch</a></li>
+                        <li><a href="../Meal_Calender/practice1.html" id="redirectToPractice1">Dinner</a></li>
+                        <li><a href="../Menu/menu.html" id="redirectToMenu">Menu</a></li>
+                        <li><a href="../Current_Manager/currentm.html" id="redirectToManager">Manager</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Payment</a>
+                    <ul class="dropdown">
+                        <li><a href="../Dining_Fee/dining_fee.html" id="redirectToDiningFee">Dining Fee</a></li>
+                        <li><a href="../Late_Fee/table.html" id="redirectToLateFee">Late Fee</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="icon_section">
+            <button type="Feedback" class="fb_btn">Feedback</button>
+            <div class="msg_icon">
+                <a href="#"><i class="ri-discuss-fill"></i></a>
+            </div> 
+            <div class="user_logo">
+                <p id="User_ID"></p>
+                <div class="user_icon">
+                    <a href="#"><i class="ri-user-3-fill"></i></a>
+                </div> 
+            </div> 
+            
+        </div>
+         <!--user icon click-->
+         <div class="sub-menu-wrap f">
+            <div class=sub-menu>
+                <div class="user-info">
+                    <h3 id='User_H3'></h3>
+                </div>
+                <hr>
+            </div>
+            <a href="#" class="sub-menu-links">
+                <i class="ri-user-3-fill"></i>
+                <p>Edit Profile</p>
+                <span>></span>
+            </a>
+            <a href="#" class="sub-menu-links">
+                <i class="ri-settings-3-line"></i>
+                <p>Settings & Privacy</p>
+                <span>></span>
+            </a>
+            <a href="#" class="sub-menu-links">
+                <i class="ri-question-fill"></i>
+                <p>Help & Support</p>
+                <span>></span>
+            </a>
+            <a href="index.html" class="sub-menu-links">
+                <i class="ri-logout-box-r-line"></i>
+                <p>Logout</p>
+                <span>></span>
+            </a>
+        </div>
+    
+        
+    </div>
+    </header>
+    <div class="pick">
+        <h1 class="center-heading"><i class="fa-solid fa-receipt" style="font-size: 42px;"></i>    Dining Fee</h1>
+        <div class="container">
+            <div class="wraps" id="currentMonthContainer">
+            </div>
+            <div class="wraps" id="nextMonthContainer">
+            </div>
+        </div>
+    </div>
+    <!--feedback form-->
+    <div class="wrap for3">
+        <table>
+            <form action=""method="">
+                <h1>FEEDBACK FORM</h1>
+            <br><br>
+                <tr>
+                    <td colspan="2">
+                        <label>Type</label><span class="red-star">*</span><br/>
+                        <input type="radio" name="rate" value="bad" id="bad">
+                        <label class="radio-label" for="bad">Bugs</label>
+                
+                        <input type="radio" name="rate" value="questions" id="questions">
+                        <label class="radio-label" for="questions">Questions</label>
+                
+                        <input type="radio" name="rate" value="comments" id="comments">
+                        <label class="radio-label" for="comments">Comments</label><br/><br/>
+                    </td>
+                </tr>
+                <tr>
+                   <td colspan="2">
+                    <label>About</label>
+                    <br>
+                    <input type="text" name="about" class="txt"style="margin-top: 10px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Your Feedback</label><span class="red-star">*</span>
+                    </br>
+                        <textarea class="txtarea"style="margin-top: 10px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                 <td >
+                    <button type="send feedback" class="btn">SEND FEEDBACK</button>
+
+                 </td>   
+                </tr>
+            </form>
+
+        </table>
+    </div>
+    <!--khatam-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.min.js"></script>
+    <script src="../Dining_Fee/dining.js"></script>
+</body>
+</html>
