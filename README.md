@@ -34,9 +34,9 @@ Chefs don’t interact with the system. They just have to look at the dishes pre
 
 ### 📋 **Manager**
 - **Daily Menu Management**: Easily add, edit, and delete daily menus. 
-  ![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(162).png)
+  ![Menu Management]()
 - **Feast Management**: Upload and update images for menu items, integrated with Firebase for seamless image handling.
-  ![Image Management]()
+  ![Image Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(165).png)
 - **Meal Count**: Monitor meal counts and track whether residents have returned their tokens.
   ![Meal Tracking](path/to/screenshot-meal-tracking.png)
 - **Meal Record**: Review and respond to feedback or complaints from residents.
