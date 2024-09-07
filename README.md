@@ -40,7 +40,7 @@ Chefs don’t interact with the system. They just have to look at the dishes pre
 - **Meal Count**: Monitor meal counts and track whether residents have returned their tokens.
   ![Meal Tracking](path/to/screenshot-meal-tracking.png)
 - **Meal Record**: Review and respond to feedback or complaints from residents.
-  ![Feedback Review](path/to/screenshot-feedback-review.png)
+  ![Feedback Review](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(166).png)
 
 ### 🧑‍🤝‍🧑 **Admin**
 - **Student Record**: Residents can browse through the daily menu offerings.
