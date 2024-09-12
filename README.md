@@ -106,7 +106,9 @@ The admin has the authority to add new managers, view the list of current manage
 If you find any bug in the code or have any improvements in mind then feel free to generate a pull request.
 
 ## Issues
-[![GitHub Issues](https://img.shields.io/github/issues/harismuneer/Restaurant-Management-System.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/harismuneer/Restaurant-Management-System/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/Rashme22/my_project.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/Rashme22/my_project/issues)
+
+If you encounter any issues, you can create a new issue in the Issues tab, and I will be glad to help you out.
 
 If you face any issue, you can create a new issue in the Issues Tab and I will be glad to help you out.
 
