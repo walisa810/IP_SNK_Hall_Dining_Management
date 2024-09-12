@@ -48,17 +48,17 @@ The admin has the authority to add new managers, view the list of current manage
   ![Feedback Review](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ip3.png)
 
 ### 👩‍💻 **Admin**
-- **Student Record**: Access detailed student records
+- **Student Record**: Access detailed student records.
   
-  ![Menu Viewing](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
+  ![Menu Viewing](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ta2.jpg)
   
-- **Manager Selection**:  add new manager from the existing student list
+- **Manager Selection**:  add new manager from the existing student list.
   
-  ![Token Reporting](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
+  ![Token Reporting](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ta3.jpg)
   
-- **Current Manager**: view the list of current managers
+- **Current Manager**: view the list of current managers.
   
-  ![Feedback Submission](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
+  ![Feedback Submission](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ta1.jpg)
 
 ###  👩‍🏫 **Student**
 
