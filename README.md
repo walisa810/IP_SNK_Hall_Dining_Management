@@ -50,15 +50,15 @@ The admin has the authority to add new managers, view the list of current manage
 ### 👩‍💻 **Admin**
 - **Student Record**: Access detailed student records
   
-  ![Menu Viewing](path/to/screenshot-menu-viewing.png)
+  ![Menu Viewing](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
   
 - **Manager Selection**:  add new manager from the existing student list
   
-  ![Token Reporting](path/to/screenshot-token-reporting.png)
+  ![Token Reporting](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
   
 - **Current Manager**: view the list of current managers
   
-  ![Feedback Submission](path/to/screenshot-feedback-submission.png)
+  ![Feedback Submission](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
 
 ###  👩‍🏫 **Student**
 
@@ -72,7 +72,7 @@ The admin has the authority to add new managers, view the list of current manage
   
 - **Current Manager**:  view the list of current managers
   
-  ![Password Recovery](path/to/screenshot-password-recovery.png)
+  ![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
   
 - **Dining Fee**: See the dining fees for the current month and the next month.
   
