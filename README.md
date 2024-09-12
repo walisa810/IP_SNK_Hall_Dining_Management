@@ -30,36 +30,56 @@ The admin has the authority to add new managers, view the list of current manage
 
 ## Screenshots of some Interfaces and their Description
 
-### 📋 **Manager**
-- **Daily Menu Management**: Easily add, edit daily menus. 
+### 👩‍💼 **Manager**
+- **Daily Menu Management**: Easily add, edit daily menus.
+  
   ![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
+  
 - **Feast Management**: Upload and update images for feast day.
-  ![Image Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(165).png)
-- **Meal Count**: Input the number of meal counts for staff and extra items, as well as view the number of students in the regular section who haven’t returned their tokens 
+  
+  ![Image Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ip2.png)
+  
+- **Meal Count**: Input the number of meal counts for staff and extra items, as well as view the number of students in the regular section who haven’t returned their tokens.
+ 
   ![Meal Tracking](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(167).png)
+  
 - **Meal Record**: See the list of daily meal records.
-  ![Feedback Review](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(166).png)
+ 
+  ![Feedback Review](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ip3.png)
 
-### 🧑‍🤝‍🧑 **Admin**
-- **Student Record**: Residents can browse through the daily menu offerings.
+### 👩‍💻 **Admin**
+- **Student Record**: Access detailed student records
+  
   ![Menu Viewing](path/to/screenshot-menu-viewing.png)
-- **Manager Selection**: Report token returns and meal counts directly to the dining management.
+  
+- **Manager Selection**:  add new manager from the existing student list
+  
   ![Token Reporting](path/to/screenshot-token-reporting.png)
-- **Current Manager**: Easily submit feedback or complaints about the dining experience.
+  
+- **Current Manager**: view the list of current managers
+  
   ![Feedback Submission](path/to/screenshot-feedback-submission.png)
 
-### 🔐 **Student**
-- **Signup & Login**: Users can securely log in and access their profiles with JWT-based authentication.
-  ![User Authentication](path/to/screenshot-user-authentication.png)
-- **Meal Token**: Ensure secure account creation with OTP-based email verification.
+###  👩‍🏫 **Student**
+
+- **Meal Token**: See their meal token status for the current month and the status of returned tokens.
+  
   ![Email Verification](path/to/screenshot-email-verification.png)
-- **Menu List**: Recover forgotten passwords quickly using OTP.
+  
+- **Menu List**:  See the list of all available menus.
+  
   ![Password Recovery](path/to/screenshot-password-recovery.png)
-- **Current Manager**: Recover forgotten passwords quickly using OTP.
+  
+- **Current Manager**:  view the list of current managers
+  
   ![Password Recovery](path/to/screenshot-password-recovery.png)
-- **Dining Fee**: Recover forgotten passwords quickly using OTP.
+  
+- **Dining Fee**: See the dining fees for the current month and the next month.
+  
   ![Password Recovery](path/to/screenshot-password-recovery.png)
-- **Late Fee**: Recover forgotten passwords quickly using OTP.
+  
+- **Late Fee**: Certainly: See the list of late fees accrued since their registration date.
+  
   ![Password Recovery](path/to/screenshot-password-recovery.png)
 
 # Built With
