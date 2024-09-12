@@ -101,7 +101,7 @@ The admin has the authority to add new managers, view the list of current manage
 - **AJAX**: A technique for creating asynchronous web applications, allowing for dynamic content updates. ![AJAX](https://img.shields.io/badge/-AJAX-4B8BBE?logo=ajax&logoColor=white&style=for-the-badge)
 
 ## Contributions Welcome
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](#)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.github.com/Rashme22/my_project/pulls)
 
 If you find any bug in the code or have any improvements in mind then feel free to generate a pull request.
 
