@@ -64,7 +64,7 @@ The admin has the authority to add new managers, view the list of current manage
 
 - **Meal Token**: See their meal token status for the current month and the status of returned tokens.
   
-  ![Email Verification](path/to/screenshot-email-verification.png)
+  ![Email Verification](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa3.jpg)
   
 - **Menu List**:  See the list of all available menus.
   
