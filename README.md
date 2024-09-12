@@ -52,58 +52,64 @@ The homepage is the entry point of the SNK Dining Hall Management website, where
  </p>
 
 - **About Us**: Provides information about the website and its purpose.
+  
+![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/con2.jpg)
+  
+  
 - **Home**: Link to the homepage for easy navigation and return.
+  
 ### 👩‍💼 **Manager**
+
 - **Daily Menu Management**: Easily add, edit daily menus.
   
-  ![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
+![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
   
 - **Feast Management**: Upload and update images for feast day.
   
-  ![Image Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ip2.png)
+![Image Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ip2.png)
   
 - **Meal Count**: Input the number of meal counts for staff and extra items, as well as view the number of students in the regular section who haven’t returned their tokens.
  
-  ![Meal Tracking](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(167).png)
+![Meal Tracking](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(167).png)
   
 - **Meal Record**: See the list of daily meal records.
  
-  ![Feedback Review](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ip3.png)
+![Feedback Review](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ip3.png)
 
 ### 👩‍💻 **Admin**
 - **Student Record**: Access detailed student records.
   
-  ![Menu Viewing](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ta2.jpg)
+![Menu Viewing](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ta2.jpg)
   
 - **Manager Selection**:  add new manager from the existing student list.
   
-  ![Token Reporting](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ta3.jpg)
+![Token Reporting](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ta3.jpg)
   
 - **Current Manager**: view the list of current managers.
   
-  ![Feedback Submission](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ta1.jpg)
+![Feedback Submission](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ta1.jpg)
 
 ###  👩‍🏫 **Student**
 
 - **Meal Token**: See their meal token status for the current month and the status of returned tokens.
   
-  ![Email Verification](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa3.jpg)
+![Email Verification](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa3.jpg)
   
 - **Menu List**:  See the list of all available menus.
   
-  ![Password Recovery](path/to/screenshot-password-recovery.png)
+![Password Recovery](path/to/screenshot-password-recovery.png)
   
 - **Current Manager**:  view the list of current managers
   
-  ![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
+![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
   
 - **Dining Fee**: See the dining fees for the current month and the next month.
   
-  ![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/aha2.jpg)
+![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/aha2.jpg)
   
 - **Late Fee**: Certainly: See the list of late fees accrued since their registration date.
-  
-  ![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/aha.jpg)
+
+ ![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/aha.jpg)
 
 # Built With
 
