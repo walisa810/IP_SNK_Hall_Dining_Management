@@ -7,7 +7,14 @@ SNK HALL DINING MANAGEMENT is a computerized website that aims to deliver a user
 While residing in SNK hall, the students have been facing many unsatisfactory services which has caused them great difficulties such as conventional method of dining payment where if the student is absent that day, then the student needs go to the bank to pay the dining fee, the back token needs to be returned physically and if the student has missed to return the back token physically within the given time, then the back token won’t be counted anymore and the student would lost the money of that day’s back token, not getting notified about what’s in the meal beforehand, not having a reliable feedback platform about dining management, lack of interaction between students and managers etc. To address all these issues, a computerized dining management system is badly needed. Hence, this system aims to address all these issues by providing a convenient computerized environment for dining management.
 
 
----
+
+### **🔑 Key Features**
+- **Streamlined Payment**: Simplify dining fee payments.
+- **Automated Token Management**: Track and manage tokens effortlessly.
+ - **See Menu List**: View a comprehensive list of available menus.
+- **Feast Update**: Stay informed about upcoming feasts and special events.
+  
+
 ## 👨🏼‍💻 Contributors
 It was really fun to work with these awesome geeks to get the job done:
 
@@ -30,6 +37,12 @@ The admin has the authority to add new managers, view the list of current manage
 
 ## Screenshots of some Interfaces and their Description
 
+### 📸 **Homepage**:The homepage is the entry point of the SNK Dining Hall Management website, where users first interact with the system.
+- **Welcome Message**: Greets users and provides an overview of what they can do on the website.
+   ![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
+- **Login/Signup**: Allows users to log in or register to access their respective dashboards.
+- **About Us**: Provides information about the website and its purpose.
+- **Home**: Link to the homepage for easy navigation and return.
 ### 👩‍💼 **Manager**
 - **Daily Menu Management**: Easily add, edit daily menus.
   
