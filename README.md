@@ -31,13 +31,13 @@ The admin has the authority to add new managers, view the list of current manage
 ## Screenshots of some Interfaces and their Description
 
 ### 📋 **Manager**
-- **Daily Menu Management**: Easily add, edit, and delete daily menus. 
-  ![Menu Management]()
-- **Feast Management**: Upload and update images for menu items, integrated with Firebase for seamless image handling.
+- **Daily Menu Management**: Easily add, edit daily menus. 
+  ![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
+- **Feast Management**: Upload and update images for feast day.
   ![Image Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(165).png)
-- **Meal Count**: Monitor meal counts and track whether residents have returned their tokens.
-  ![Meal Tracking](path/to/screenshot-meal-tracking.png)
-- **Meal Record**: Review and respond to feedback or complaints from residents.
+- **Meal Count**: Input the number of meal counts for staff and extra items, as well as view the number of students in the regular section who haven’t returned their tokens 
+  ![Meal Tracking]()
+- **Meal Record**: See the list of daily meal records.
   ![Feedback Review](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(166).png)
 
 ### 🧑‍🤝‍🧑 **Admin**
