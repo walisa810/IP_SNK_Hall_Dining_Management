@@ -76,11 +76,11 @@ The admin has the authority to add new managers, view the list of current manage
   
 - **Dining Fee**: See the dining fees for the current month and the next month.
   
-  ![Password Recovery](path/to/screenshot-password-recovery.png)
+  ![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/aha2.jpg)
   
 - **Late Fee**: Certainly: See the list of late fees accrued since their registration date.
   
-  ![Password Recovery](path/to/screenshot-password-recovery.png)
+  ![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/aha.jpg)
 
 # Built With
 
