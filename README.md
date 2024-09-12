@@ -20,14 +20,12 @@ It was really fun to work with these awesome geeks to get the job done:
 ## User types and Characteristics
 There are **three** types of users for our system. 
 
-### 1. Admin
-Customers interact with our system directly in order to place order, modify order, get bill and give feedback. We do not store any information related to customers in our system. The process of order taking starts from customers placing order and then the other series of events begin.
-
+### 1. Student
+Students can log in to check the daily menu, view and manage dining fees, including any applicable late fees, and stay informed about upcoming feasts or special events. They can also track their token return status to ensure no penalties are incurred. This role focuses on providing students with essential dining-related information and payment updates.
 ### 2. Manager
-Head Chef can mark a dish as prepared when a chef tells him to do so. He can approve the cancellation of an order whenever a customer edits or removes a dish from his order. He can also assign a dish to a particular chef based on the specialty of the chef.
-
-### 3. Students
-Chefs don’t interact with the system. They just have to look at the dishes present in their queues and prepare the dishes accordingly. Chef’s name, address and specialty etc. are stored in the database.
+Managers can set the daily menu, define feast menus, and schedule feast dates. They are responsible for adding extra items and assigning token numbers for both lunch and dinner. Additionally, managers can view and manage all these details in an organized table format, ensuring smooth dining operations.
+### 3. Admin
+The admin has the authority to add new managers, view the list of current managers, and access detailed student information. This role ensures smooth management of personnel and keeps track of dining operations from a higher level.
 
 
 ## Screenshots of some Interfaces and their Description
