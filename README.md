@@ -41,9 +41,16 @@ The admin has the authority to add new managers, view the list of current manage
 The homepage is the entry point of the SNK Dining Hall Management website, where users first interact with the system.
 - **Welcome Message**: Greets users and provides an overview of what they can do on the website.
 
-   ![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/home.jpg)
+ ![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/home.jpg)
   
 - **Login/Signup**: Allows users to log in or register to access their respective dashboards.
+
+
+ <p align="center">
+ <img src="https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/og.jpg" alt="Homepage Image 1" width="500">
+ <img src="https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/sign.jpg" alt="Homepage Image 2" width="500">
+ </p>
+
 - **About Us**: Provides information about the website and its purpose.
 - **Home**: Link to the homepage for easy navigation and return.
 ### 👩‍💼 **Manager**
