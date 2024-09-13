@@ -131,6 +131,10 @@ The homepage is the entry point of the SNK Dining Hall Management website, where
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.github.com/Rashme22/my_project/pulls)
 
 If you find any bug in the code or have any improvements in mind then feel free to generate a pull request.
+To view the website,
+
+click [Hall Dining Management](https://walisa810.github.io/IP_SNK_Hall_Dining_Management/) or  
+copy the link https://walisa810.github.io/IP_SNK_Hall_Dining_Management/ and paste it into your browser to load it.
 
 ## Issues
 [![GitHub Issues](https://img.shields.io/github/issues/Rashme22/my_project.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/Rashme22/my_project/issues)
