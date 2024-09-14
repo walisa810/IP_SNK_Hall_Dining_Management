@@ -6,7 +6,8 @@ SNK HALL DINING MANAGEMENT is a computerized website that aims to deliver a user
 
 While residing in SNK hall, the students have been facing many unsatisfactory services which has caused them great difficulties such as conventional method of dining payment where if the student is absent that day, then the student needs go to the bank to pay the dining fee, the back token needs to be returned physically and if the student has missed to return the back token physically within the given time, then the back token won’t be counted anymore and the student would lost the money of that day’s back token, not getting notified about what’s in the meal beforehand, not having a reliable feedback platform about dining management, lack of interaction between students and managers etc. To address all these issues, a computerized dining management system is badly needed. Hence, this system aims to address all these issues by providing a convenient computerized environment for dining management.
 
-
+## Purpose
+This website was developed as a final project for our Internet Programming (Sessional) Course, CSE-326. The whole class was divided into teams of 3 members and each team was assigned a project mostly as per their chosen topic. All the three members of our team are from the SNK hall, CUET and we had common understanding regarding various issues of our hall. As we have been facing various problems regarding our SNK hall dining and it’s management. Hence, we wanted to do a project as to address those issues. When our proposal of project topic was accepted, we have started our work aiming to create a website for SNK Hall dining management to ease the problems of students as well as the authority.
 
 ### **🔑 Key Features**
 - **Streamlined Payment**: Simplify dining fee payments.
