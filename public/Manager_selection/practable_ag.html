@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Table Checkbox | ADMIN</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../Manager_Selection/practable_ag.css">
+</head>
+<body>
+    <header>
+        <div class="logo_section">
+            <div class="nav_logo">
+                <a href="#"><img src='../assests/1.png'></a>
+            </div> 
+            <p>SNK HALL DINING MANAGEMENT</p>
+        </div>
+        <div class="ul_section">
+            <ul>
+                <li>
+                    <a href="#">Student</a>
+                    <ul class="dropdown">
+                        <li><a href="../Admin/admin.html" id="redirectToStudentInfo">Student Info</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Managers</a>
+                    <ul class="dropdown">
+                        <li><a href="../Current_Manager/currentm1.html" id="redirectToCurrentManager">Manager Info</a></li>
+                        <li><a href="../Manager_Selection/practable_ag.html" id="redirectToManagerSelection">Manager Selection</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="icon_section">
+            <button type="Feedback" class="fb_btn">Feedback</button>
+            <div class="msg_icon">
+                <a href="#"><i class="ri-discuss-fill"></i></a>
+            </div> 
+            <div class="user_logo">
+                <p id ="User_ID">ADMIN</p>
+                <div class="user_icon">
+                    <a href="#"><i class="ri-user-3-fill"></i></a>
+                </div> 
+            </div> 
+            <div class="sub-menu-wrap f">
+              <div class="sub-menu">
+                  <div class="user-info">
+                      <h3 id="User_H3">James Aldrino</h3>
+                  </div>
+                  <hr>
+                  <a href="#" class="sub-menu-links">
+                      <i class="ri-user-3-fill"></i>
+                      <p>Edit Profile</p>
+                      <span>></span>
+                  </a>
+                  <a href="#" class="sub-menu-links">
+                      <i class="ri-settings-3-line"></i>
+                      <p>Settings & Privacy</p>
+                      <span>></span>
+                  </a>
+                  <a href="#" class="sub-menu-links">
+                      <i class="ri-question-fill"></i>
+                      <p>Help & Support</p>
+                      <span>></span>
+                  </a>
+                  <a href="index.html" class="sub-menu-links">
+                      <i class="ri-logout-box-r-line"></i>
+                      <p>Logout</p>
+                      <span>></span>
+                  </a>
+              </div>
+          </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="jumbotron text-center bg-white blackhead">
+            <h1>Manager Selection Table</h1>
+        </div>
+        <div class="row">
+            <div>
+                <button class="btn p-0 m-0 ml-5 btn-light">
+                    <input type="search" placeholder="search" class="search form-control">
+                </button>
+            </div>
+            <div class="col-md-8 selectedDiv"></div>
+        </div>
+        <div class="row pt-3">
+            <div class="col-md-12 col-sm-12 col-12 p-2">
+                <div class="table-container">
+                    <table id="tblData" class="table table-bordered table-hover table-striped">
+                        <thead style="position: sticky; top: 0; background-color: white;">
+                            <tr>
+                                <th></th> <!-- No name for the first column -->
+                                <th>Student ID</th>
+                                <th>Name</th>
+                                <th>Room No.</th>
+                                <th>Contact No.</th>
+                            </tr>
+                        </thead>
+                        <tbody class="reg-list">
+                            <tr>
+                                <td colspan="5" id="trLoader">
+                                    <div class="text-center">Loading</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../Manager_Selection/practable_ag.js"></script>
+</body>
+</html>
+
+
+
