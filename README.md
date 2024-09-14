@@ -17,7 +17,7 @@ This website was developed as a final project for our Internet Programming (Sess
   
 
 ## 👨🏼‍💻 Contributors
-It was a project for our 3-1 Internet Programming Sessional Course, CSE-326 and for that we formed a group of 3 members and the members are as follows:
+It was an enjoyable experience for us team members to work together in this project and we, the team members of this project, are as follows :
 
 * [Walisa Alam](https://github.com/walisa810)
 * [Rashme Akther](https://github.com/Rashme22)
