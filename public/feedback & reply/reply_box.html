@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="reply_box.css">
+</head>
+<body>
+    <div class="wrap">
+        <table>
+            <form action=""method="">
+                <h1>REPLY</h1>
+            <br><br>
+                <tr>
+                    <td colspan="2">
+                        <label>Type</label><span class="red-star">*</span><br/>
+                        <input type="radio" name="rate" value="bad" id="bad">
+                        <label class="radio-label" for="bad">Bugs</label>
+                
+                        <input type="radio" name="rate" value="questions" id="questions">
+                        <label class="radio-label" for="questions">Questions</label>
+                
+                        <input type="radio" name="rate" value="comments" id="comments">
+                        <label class="radio-label" for="comments">Comments</label><br/><br/>
+                    </td>
+                </tr>
+                <tr>
+                   <td colspan="2">
+                    <label>Receiver Student ID</label>
+                    <br>
+                    <input type="text" name="about" class="txt"style="margin-top: 10px; margin-left: 30px">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Your Reply</label><span class="red-star">*</span>
+                    </br>
+                        <textarea class="txtarea"style="margin-top: 10px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                 <td >
+                    <button type="send reply" class="btn">SEND REPLY</button>
+
+                 </td>   
+                </tr>
+                <button class="close-btn">&times;</button>
+             <!-- <header>
+                    <div class="close-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </header>
+            -->
+            </form>
+
+        </table>
+    </div>
+   
+    <script>
+    document.querySelector(".close-btn").addEventListener("click",function(){
+        document.querySelector(".wrap").style.display="none";
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+
+.wrap{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 690px;
+    height: 83%;
+    border: 2px solid rgba(118, 38, 38, 0.997);
+    margin: 30px auto;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align children vertically */
+    justify-content: center;
+    padding: 20px;
+    background-color: #c4d6d9; /* Set background color */
+    background-size: cover; 
+    z-index: 99999;
+}
+.wrap form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%
+}
+.wrap h1{
+    font-size: 44px ;
+    color: rgb(132, 37, 27);
+    text-align: center;
+    border-bottom: 3px solid rgb(132, 37, 27);
+    font-weight: 300;
+    width: 60%; /* Set the width of the h1 element */
+    margin: 1rem auto; /* Center the h1 element horizontally */
+    position: relative;
+    font-family: 'serif';
+    padding: 10px 0px;
+}
+.wrap table{font-size: 18px;
+    color: rgb(132, 37, 27);
+    width: 100%;
+}
+.wrap td{
+    padding:10px 20px 0px 10px;
+    margin-left: 30px;
+}
+.wrap .red-star {
+    color: red;
+}
+.wrap .txt
+{
+    width: 600px;
+    height: 50px;
+    border-radius:8px ;
+    color: #5F4B3A;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 5px;
+}
+.wrap .txtarea
+{
+    font-size: 18px;
+    width: 600px;
+    height: 200px;
+    border-radius: 8px ;
+    color: rgb(191, 87, 75);
+    margin-bottom: 10px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+.wrap .btn
+{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(77, 26, 26);
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-left: 190px;
+    border: 2px solid white;
+    font-family: 'serif';
+    transition: all 0.2s ease-in;
+}
+.wrap .txtarea {
+     margin-left: 30px; /* Move to the right */
+     /* Adjust the margin-left value as needed */
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+}
+.wrap label{
+    margin-left: 30px;
+}
+
+.wrap label.radio-label {
+    color: black; /* Set radio button option text color to black */
+}
+.wrap .radio-label {
+    margin-left: 5px; /* Adjust the margin-left value as needed */
+}
+.wrap input[type="radio"] {
+    margin-left: 73px; /* Adjust the margin-left value for radio buttons */
+    vertical-align: middle; /* Align radio buttons vertically with their labels */
+}
+.for3{
+    display: none;
+}
+.close-btn{
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-size: 31px;
+    right: 0px;
+    top: 0%;
+    margin: 5px;
+    border-radius: 20%;
+    transition: all 0.2s ease-in;
+   }
+   .close-btn:hover {
+    background-color: #817b7b; /* Darker red */
+  }
+  .btn:hover{
+   
+        background-color: #350a0acc; /* Darker red */
+      
+  }
