@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../Show_Table/showta.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</head>
+    <body>
+        <header>
+            <div class="logo_section">
+                <div class="nav_logo">
+                    <a href="#"><img src='../assests/1.png'></a>
+                </div> 
+                <p>SNK HALL DINING MANAGEMENT</p>
+            </div>
+            <div class="ul_section">
+                <ul >
+                    <li>
+                        <a href="#">Meal</a>
+                        <ul class="dropdown">
+                            <li><a href="../Daily_Meal_Count/manager_homepage.html" id="redirectToDailyLunch">Daily Lunch</a></li>
+                            <li><a href="../Daily_Meal_Count/dinner.html" id="redirectToDailyDinner">Daily Dinner</a></li>
+                            <li><a href="../Set_Menu/setMenu.html" id="redirectToSetMenu">Set Menu</a></li>
+                            <li><a href="../Set_Feast/feastDay.html" id="redirectToFeastDay">Feast Day</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                          <a href="#">Record</a>
+                          <ul class="dropdown">
+                              <li><a href="../Record/showtable.html" id="redirectToTableLunch">Table for Lunch</a></li>
+                              <li><a href="../Record/table2.html" id="redirectToTableDinner">Table for Dinner</a></li>
+                              <li><a href="../Show_Table/showta.html" id="redirectToShowMeal">Show Meal</a></li>
+                          </ul>
+                      </li>
+                </ul>
+            </div>
+            
+            <div class="icon_section">
+                <button type="Feedback" class="fb_btn">Feedback</button>
+                <div class="msg_icon">
+                    <a href="#"><i class="ri-discuss-fill"></i></a>
+                </div> 
+                <div class="user_logo">
+                    <p id ="User_ID">MANAGER</p>
+                    <div class="user_icon">
+                        <a href="#"><i class="ri-user-3-fill"></i></a>
+                    </div> 
+                </div> 
+                <!--user icon click-->
+                <div class="sub-menu-wrap f">
+                    <div class=sub-menu>
+                        <div class="user-info">
+                            <h3 id="User_H3">James Aldrino</h3>
+                        </div>
+                        <hr>
+                    </div>
+                    <a href="#" class="sub-menu-links">
+                        <i class="ri-user-3-fill"></i>
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-links">
+                        <i class="ri-settings-3-line"></i>
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-links">
+                        <i class="ri-question-fill"></i>
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href="index.html" class="sub-menu-links">
+                        <i class="ri-logout-box-r-line"></i>
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+            
+        
+        </header><br/><br/>
+
+    
+    <main>
+        <section>
+            <h2 class="center-heading"><i class="fa-solid fa-list" style="font-size: 30px;"></i>Today's Lunch Menu</h2>
+            <table id="lunch-table">
+                <thead>
+                    <tr>
+                        
+                    
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Lunch data will be inserted here -->
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2 class="center-heading"><i class="fa-solid fa-list" style="font-size: 30px;"></i>Today's Dinner Menu</h2>
+            <table id="dinner-table">
+                <thead>
+                    <tr>
+                        
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dinner data will be inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../Show_Table/showta.js"> </script>
+</body>
+</html>
