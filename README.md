@@ -16,7 +16,7 @@ While residing in SNK hall, the students have been facing many unsatisfactory se
   
 
 ## 👨🏼‍💻 Contributors
-It was really fun to work with these awesome geeks to get the job done:
+It was a project for our 3-1 Internet Programming Sessional Course, CSE-326 and for that we formed a group of 3 members and the members are as follows:
 
 * [Walisa Alam](https://github.com/walisa810)
 * [Rashme Akther](https://github.com/Rashme22)
