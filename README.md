@@ -64,7 +64,7 @@ The homepage is the entry point of the SNK Dining Hall Management website, where
   
 - **Menu List**:  See the list of all available menus.
   
-![Password Recovery](path/to/screenshot-password-recovery.png)
+![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%202024-09-15%20at%2012.48.00%20PM.png)
   
 - **Current Manager**:  view the list of current managers
   
