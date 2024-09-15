@@ -82,7 +82,7 @@ The homepage is the entry point of the SNK Dining Hall Management website, where
 
 - **Daily Menu Management**: Easily add, edit daily menus.
   
-![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
+![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%202024-09-15%20at%209.52.31%20AM.png)
   
 - **Feast Management**: Upload and update images for feast day.
   
