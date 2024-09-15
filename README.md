@@ -68,7 +68,7 @@ The homepage is the entry point of the SNK Dining Hall Management website, where
   
 - **Current Manager**:  view the list of current managers
   
-![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
+![Password Recovery](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/ta1.jpg)
   
 - **Dining Fee**: See the dining fees for the current month and the next month.
   
