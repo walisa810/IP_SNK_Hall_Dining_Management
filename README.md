@@ -82,7 +82,7 @@ The homepage is the entry point of the SNK Dining Hall Management website, where
 
 - **Daily Menu Management**: Easily add, edit daily menus.
   
-![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%202024-09-15%20at%209.52.31%20AM.png)
+![Menu Management](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/wa1.jpg)
   
 - **Feast Management**: Upload and update images for feast day.
   
@@ -90,7 +90,7 @@ The homepage is the entry point of the SNK Dining Hall Management website, where
   
 - **Meal Count**: Input the number of meal counts for staff and extra items, as well as view the number of students in the regular section who haven’t returned their tokens.
  
-![Meal Tracking](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%20(167).png)
+![Meal Tracking](https://github.com/walisa810/IP_SNK_Hall_Dining_Management/blob/main/images/Screenshot%202024-09-15%20at%209.52.31%20AM.png)
   
 - **Meal Record**: See the list of daily meal records.
  
