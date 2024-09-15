@@ -128,7 +128,7 @@ The homepage is the entry point of the SNK Dining Hall Management website, where
 - **JSON**: A lightweight data-interchange format that is easy to read and write. ![JSON](https://img.shields.io/badge/-JSON-000000?logo=json&logoColor=white&style=for-the-badge)
 - **AJAX**: A technique for creating asynchronous web applications, allowing for dynamic content updates. ![AJAX](https://img.shields.io/badge/-AJAX-4B8BBE?logo=ajax&logoColor=white&style=for-the-badge)
 
-## Installation & Run
+## 🛠️ Installation & Run
 To run the code, you have to download the repository. Now run the files by the help of following node command:
 ```sh
 node index.js
